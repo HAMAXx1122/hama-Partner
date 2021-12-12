@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('** You have to be in Voice **'); 
+message.reply('** Abet La Voice Ek Bet **'); 
 
 } 
 
@@ -36,7 +36,7 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(`Done and sharing this link https://discord.gg/u7s5eDZgZY`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(`Done and sharing this link https://discord.gg/`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
   client.channels.get("your channel id").send(
 `> Send By: <@${message.author.id}> ✅ 
@@ -58,3 +58,4 @@ client.user.setGame(`Send me a Link your Server`)
 
 
 client.login("");// token bot akat
+Code lalayan KP HAMA
